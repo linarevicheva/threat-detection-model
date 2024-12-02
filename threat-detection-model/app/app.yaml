@@ -1,7 +1,7 @@
 runtime: python311
 service: model-service
 entrypoint: uvicorn main:app --host 0.0.0.0 --port $PORT
-instance_class: F2
+instance_class: F4
 
 service_account: threat-detection-436007@appspot.gserviceaccount.com
 
